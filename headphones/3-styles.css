@@ -1,0 +1,26 @@
+main {
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	margin: 200px;
+	background-color: #fff;
+	padding: 30px;
+	border: 10px;
+	text-align: center;
+}
+h1 {
+	margin-bottom: 20px;
+}
+.container button {
+	color: #fff;
+	background-color: #ff6565;
+	width: 162px;
+	height: 44px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 40px;
+	border-color: #ff6565;
+}

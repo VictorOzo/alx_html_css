@@ -1,0 +1,30 @@
+.result {
+	height: 100vh;
+	width: 100vw;
+	/* background-color: ; */
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.pentagon {
+	height: 150px;
+	width: 150px;
+	border-top: 160px solid #ff6565;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	position: relative;
+	margin: 100px;
+}
+.pentagon::before {
+	position: absolute;
+	content: '';
+	height: 0;
+	width: 0;
+	border-bottom: 100px solid #ff6565;
+	border-left: 140px solid transparent;
+	border-right: 200px solid transparent;
+	bottom: 300px;
+	left: -90px;
+}

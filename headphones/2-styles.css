@@ -1,0 +1,102 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+.res{
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.first{
+    text-align: center;
+    color: #fff;
+    /* margin: 300px; */
+}
+.result{
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.result div{
+    position: relative;
+    flex: 1 0 auto;
+}
+.result img{
+    width: 150px;
+    height: 150px;
+
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-70%, -50%);
+    color: #fff;
+    display: block;
+    margin: 0;
+}
+.overlay p, .overlay h2{
+    margin: 5px;
+    
+}
+.overlay h2{
+   text-align: center;
+}
+.overlay p{
+    right: -50%;
+    font-size: 14px;
+}
+
+.over{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-70%, -50%);
+    color: #fff;
+    display: block;
+    margin: 0;
+}
+.over h2{
+    text-align: center;
+}
+.over h2, .over p{
+    margin: 5px;
+}
+.over p{
+    right: -50%;
+    font-size: 14px;
+}
+
+.ove{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-70%, -50%);
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.ove h2{
+    text-align: center;
+}
+.ove p{
+    right: -50%;
+    font-size: 14px;
+}
+.ovelay{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-70%, -50%);
+    display: block;
+}
+.ovelay h2{
+    text-align: center;
+}
+.ovelay p{
+    right: -50%;
+    font-size: 14px;
+}
